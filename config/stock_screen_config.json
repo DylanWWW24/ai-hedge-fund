@@ -1,0 +1,173 @@
+{
+  "timezone": "Asia/Taipei",
+  "screen_filters": {
+    "market_cap_cny": "30亿-150亿",
+    "domestic_substitution_rate": "<20%",
+    "bom_cost_share": "<5%",
+    "capacity_expansion_cycle": ">18个月",
+    "research_reports_3m": "<=15篇",
+    "mandatory_disclosure_channels": [
+      "公告",
+      "互动易/上证e互动",
+      "财报",
+      "业绩说明会"
+    ]
+  },
+  "ai_hedge_fund": {
+    "enabled": true,
+    "selected_analysts": [
+      "technical_analyst",
+      "fundamentals_analyst",
+      "valuation_analyst",
+      "sentiment_analyst",
+      "nassim_taleb"
+    ],
+    "start_days_back": 120,
+    "initial_cash": 1000000,
+    "margin_requirement": 0.5,
+    "model_name": "gpt-4.1",
+    "model_provider": "OpenAI"
+  },
+  "candidates": [
+    {
+      "code": "688035",
+      "name": "德邦科技",
+      "market_symbol": "688035.SS",
+      "aihf_ticker": "688035.SS",
+      "bom_link": "集成电路封装胶/底部填充胶/导热界面材料/晶圆UV膜",
+      "event_confirmed": false,
+      "research_report_count_3m": null,
+      "max_research_reports_3m": 15,
+      "current_position_pct": 0,
+      "target_initial_pct": 0.05,
+      "max_position_pct": 0.10,
+      "buy_zone_low": 80,
+      "buy_zone_high": 84,
+      "breakout_price": 96.8,
+      "stop_loss_price": 78,
+      "take_profit_1_low": 100,
+      "take_profit_1_high": 104,
+      "take_profit_2_low": 115,
+      "take_profit_2_high": 120,
+      "buy_trigger": "事件确认后80-84元缩量企稳，或突破96.80元且连续2日不破",
+      "stop_rule": "收盘跌破78元，或买入价-8%，或任一里程碑未确认",
+      "take_profit_rule": "100-104元减半；Q3达标后115-120元并用10%-12%移动止盈",
+      "short_thesis": "大客户二供/自研、技术替代、价格战均未完全排除；毛利率未四连扩",
+      "notes": "唯一事件驱动候选，未有公告/互动易确认前不得无条件买入",
+      "source_urls": [
+        "https://www.darbond.com/"
+      ],
+      "catalysts": [
+        {
+          "event": "集成电路封装材料至少一个品类被明确表述为客户验证通过/小批量供货/批量供货",
+          "deadline": "2026-08-31",
+          "breaker": "只说正在推进或积极验证不算；互动易或公告未认即失效",
+          "channel": "公告/上证e互动/业绩说明会",
+          "status": "待确认"
+        },
+        {
+          "event": "半导体材料相关产能、募投、研发中心或产线爬坡被正式披露，且2026Q2/H1经营利润率不低于10%",
+          "deadline": "2026-10-31",
+          "breaker": "未披露在建工程/产线爬坡，或经营利润率跌回7%以下，禁止加仓",
+          "channel": "半年报/公告/互动易",
+          "status": "待确认"
+        },
+        {
+          "event": "2026Q3确认毛利率≥28.5%、净利率≥8.5%，且半导体/集成电路相关材料收入增速高于整体收入",
+          "deadline": "2026-11-15",
+          "breaker": "毛利率<27%、净利率<8%、或否认进入相关客户链，立即熔断",
+          "channel": "三季报/互动易",
+          "status": "待确认"
+        }
+      ]
+    },
+    {
+      "code": "603931",
+      "name": "格林达",
+      "market_symbol": "603931.SS",
+      "aihf_ticker": "603931.SS",
+      "bom_link": "电子化学品/显影液",
+      "event_confirmed": false,
+      "research_report_count_3m": null,
+      "max_research_reports_3m": 15,
+      "current_position_pct": 0,
+      "target_initial_pct": 0,
+      "max_position_pct": 0,
+      "buy_trigger": "毛利率>34.5%，收入环比>15%，且半导体客户扩张被确认后再评估",
+      "stop_rule": "缺收入弹性或毛利率扩张即继续观察",
+      "take_profit_rule": "不适用",
+      "short_thesis": "收入弹性不足，毛利率非连续扩张，估值不便宜",
+      "notes": "观察，不建仓",
+      "source_urls": [],
+      "catalysts": [
+        {
+          "event": "电子化学品半导体客户扩张证据",
+          "deadline": "2026-10-31",
+          "breaker": "未确认客户扩张或收入仍横盘",
+          "channel": "公告/互动易/财报",
+          "status": "待确认"
+        }
+      ]
+    },
+    {
+      "code": "688596",
+      "name": "正帆科技",
+      "market_symbol": "688596.SS",
+      "aihf_ticker": "688596.SS",
+      "bom_link": "高纯工艺系统/气化学品系统",
+      "event_confirmed": false,
+      "hard_avoid": true,
+      "hard_avoid_reason": "毛利率下行且项目利润波动，暂不满足买入条件",
+      "research_report_count_3m": null,
+      "current_position_pct": 0,
+      "target_initial_pct": 0,
+      "max_position_pct": 0,
+      "buy_trigger": "连续两个季度经营利润转正且毛利率回20%以上",
+      "stop_rule": "Q1亏损或毛利率持续<20%",
+      "take_profit_rule": "不适用",
+      "short_thesis": "项目型公司利润波动，估值对利润修复要求高",
+      "notes": "回避",
+      "source_urls": []
+    },
+    {
+      "code": "688602",
+      "name": "康鹏科技",
+      "market_symbol": "688602.SS",
+      "aihf_ticker": "688602.SS",
+      "bom_link": "电子材料/特种材料",
+      "event_confirmed": false,
+      "hard_avoid": true,
+      "hard_avoid_reason": "亏损修复不足，未满足建仓条件",
+      "research_report_count_3m": null,
+      "current_position_pct": 0,
+      "target_initial_pct": 0,
+      "max_position_pct": 0,
+      "buy_trigger": "至少连续两季经营利润转正",
+      "stop_rule": "继续亏损",
+      "take_profit_rule": "不适用",
+      "short_thesis": "连续经营亏损，缺少可审计利润质量改善",
+      "notes": "回避",
+      "source_urls": []
+    },
+    {
+      "code": "002971",
+      "name": "和远气体",
+      "market_symbol": "002971.SZ",
+      "aihf_ticker": "002971.SZ",
+      "bom_link": "电子特气/工业气体",
+      "event_confirmed": false,
+      "hard_avoid": true,
+      "hard_avoid_reason": "估值高且利润弹性不足，暂不满足建仓条件",
+      "research_report_count_3m": null,
+      "current_position_pct": 0,
+      "target_initial_pct": 0,
+      "max_position_pct": 0,
+      "buy_trigger": "估值压缩且利润连续改善后再评估",
+      "stop_rule": "PE高企或利润波动",
+      "take_profit_rule": "不适用",
+      "short_thesis": "估值对利润释放要求过高，安全边际不足",
+      "notes": "回避",
+      "source_urls": []
+    }
+  ]
+}
