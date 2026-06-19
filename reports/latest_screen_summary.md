@@ -1,7 +1,7 @@
 # Daily ai-hedge-fund stock screen
 
-- Run time: 2026-06-19 21:55:32 Asia/Taipei
-- Session: 14:40
+- Run time: 2026-06-20 00:25:54 Asia/Taipei
+- Session: 09:00
 - ai-hedge-fund status: aiHF skipped: missing LLM API key secret
 
 |代码|名称|现价|aiHF|建议|目标仓位|理由|
