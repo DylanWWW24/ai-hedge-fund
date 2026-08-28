@@ -149,3 +149,4 @@
 {"run_time": "2026-08-26 15:30:03", "session": "14:40", "candidate_count": 5, "buy_add_count": 0, "avoid_fuse_count": 4, "aihf_status": "aiHF skipped: missing LLM API key secret"}
 {"run_time": "2026-08-27 19:02:57", "session": "14:40", "candidate_count": 5, "buy_add_count": 0, "avoid_fuse_count": 4, "aihf_status": "aiHF skipped: missing LLM API key secret"}
 {"run_time": "2026-08-28 01:53:35", "session": "09:00", "candidate_count": 5, "buy_add_count": 0, "avoid_fuse_count": 4, "aihf_status": "aiHF skipped: missing LLM API key secret"}
+{"run_time": "2026-08-28 20:36:25", "session": "14:40", "candidate_count": 5, "buy_add_count": 0, "avoid_fuse_count": 4, "aihf_status": "aiHF skipped: missing LLM API key secret"}
